@@ -3,6 +3,8 @@ int searchFloor(int arr[], int n, int x){
     int end = n-1;
     
     // 5 5 5 6 6 6 8 9
+    //floor = greatest smaller number
+    //ceil  = smallest greater number
     int res{-1};
     while(start<=end){
         int mid = start + (end-start)/2;
