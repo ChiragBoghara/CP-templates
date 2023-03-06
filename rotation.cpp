@@ -3,6 +3,8 @@ public:
 	int findKRotation(int nums[], int n) {
 	    int start = 0;
 	    int end = n-1;
+		
+            //no of rotations = index of minimum element		
 	    
 	    //index of the minimum element would be our answer
 	    //so somehow we have to find minimum element
