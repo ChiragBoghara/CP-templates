@@ -11,8 +11,6 @@ int searchFloor(int arr[], int n, int x){
         }
         if(arr[mid]<x){
             res=arr[mid];
-        }
-        if(arr[mid]<x){
             start=mid+1;
         }else{
             end=mid-1;
@@ -32,12 +30,10 @@ int searchCeil(int arr[], int n, int x){
         if(arr[mid]==x){
             return arr[mid];
         }
-        if(arr[mid]>x){
-            res=arr[mid];
-        }
         if(arr[mid]<x){
             start=mid+1;
         }else{
+            res=arr[mid];
             end=mid-1;
         }
     }
