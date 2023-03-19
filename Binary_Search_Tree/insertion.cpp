@@ -1,5 +1,7 @@
 class Solution {
 public:
+
+    //always think iteratively or maintaing range in all bst solutions
     TreeNode* insertIntoBST(TreeNode* root, int val) {
         //in BST quesitons try to think iteratively
         TreeNode *res = root;
