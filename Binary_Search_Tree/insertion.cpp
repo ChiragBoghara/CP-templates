@@ -3,7 +3,7 @@ public:
 
     //always think iteratively or maintaing range in all bst solutions
     TreeNode* insertIntoBST(TreeNode* root, int val) {
-        //in BST quesitons try to think iteratively
+        //in BST questions try to think iteratively
         TreeNode *res = root;
         TreeNode *newNode = new TreeNode(val);
         //just find where it can be and just insert
