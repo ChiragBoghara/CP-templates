@@ -29,7 +29,10 @@ class Solution{
     }
     //Longest unique characters substring
     //or longest substring without repeting characters
-    //variable size sliding window
+    //variable size sliding window== 
+    //1.<k
+    //2.==k
+    //3.>k
     int lengthOfLongestSubstring(string s) {
         if(s==""){
             return 0;
